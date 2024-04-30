@@ -6,6 +6,7 @@ section{
     display: inline-block;
     background-color: white;
     margin-left: 30px;
+
 }
 body{
     background-color: #ccd0d6;
@@ -17,7 +18,7 @@ body{
     
     
 }
-li{
+ nav li{
     display: inline-block;
     margin-left: 20px;
 } 
@@ -26,6 +27,7 @@ li{
 }
 .nav-img{
     margin-top: 8px;
+    vertical-align: middle;
 }
 .img1{
     display: inline-block;
@@ -65,4 +67,58 @@ section h2 {
     vertical-align: middle;
     width: 16px;
     height: 16px;
+    margin-left: 20px;
+}
+section p {
+   margin-top: 40px;
+   margin-left: 35px;
+   font-family: Roboto;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 21.72px;
+  
+
+}
+h1{
+    margin-left: 25px ;
+}
+footer li{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    width: 39px;
+    height: 14px;
+    margin-left: 60px;
+    color: #818687;
+    ;
+
+}
+footer ul{
+    display: inline-block;
+
+}
+footer{
+    position: relative;
+    margin-top: 10px;
+}
+footer h2 {
+   position: absolute;
+   left: 600px;
+   bottom: 100px;
+   font-family: Roboto;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 14.06px;
+   color: #FFFFFF;
+   ;
+
+}
+footer img{
+    position: absolute;
+    left: 1100px; 
+    top:10px;
+}
+ul li{
+    list-style-type: none;
 }
